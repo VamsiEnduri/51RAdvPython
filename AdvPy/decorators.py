@@ -1,50 +1,58 @@
-# what is decorator ?
-# what is syntax of decorator ?
-# how to use decorator ?
-# what are main areas where we will use decorators ?
+# # what is decorator ?
+# # what is syntax of decorator ?
+# # how to use decorator ?
+# # what are main areas where we will use decorators ?
 
-# def dec(param):
-#     def wrapper():
-#         a=10
-#         print(a)
-#         param()
+# # def dec(param):
+# #     def wrapper():
+# #         a=10
+# #         print(a)
+# #         param()
 
-#     wrapper();    
+# #     wrapper();    
 
-# def a():
-#     print("a function at 11th line")
+# # def a():
+# #     print("a function at 11th line")
 
-# dec(a)
-
-
-# def decorator(mrg):
-#     def marraigeDetails():
-#         print("marriage is going to happen today 28-10-25")
-#         mrg()
-#         print("its all done marriage")
-
-#     return marraigeDetails     
-
-# def marriage():
-#     date="29-10-25"
-#     bride="abc"
-#     groom="xyz"
-#     print(f"{groom} is  got married with {bride} on {date}")
-
-# abc123=decorator(marriage)
-# abc123()
-
-def salUpdation(a):
-    def salDetails(nameEmp,salEmp):
-        print("empy name ",nameEmp)
-        print("emp sal in last month",salEmp)
-        a()
-    return salDetails;    
+# # dec(a)
 
 
-def currentSal():
-    sal=15000
-    print("current salary is ",sal)
+# # def decorator(mrg):
+# #     def marraigeDetails():
+# #         print("marriage is going to happen today 28-10-25")
+# #         mrg()
+# #         print("its all done marriage")
 
-abc123=salUpdation(currentSal)
-abc123("vamsi",14000)
+# #     return marraigeDetails     
+
+# # def marriage():
+# #     date="29-10-25"
+# #     bride="abc"
+# #     groom="xyz"
+# #     print(f"{groom} is  got married with {bride} on {date}")
+
+# # abc123=decorator(marriage)
+# # abc123()
+
+# def salUpdation(a):
+#     def salDetails(nameEmp,salEmp):
+#         print("empy name ",nameEmp)
+#         print("emp sal in last month",salEmp)
+#         a()
+#     return salDetails;    
+
+
+# def currentSal():
+#     sal=15000
+#     print("current salary is ",sal)
+
+# abc123=salUpdation(currentSal)
+# abc123("vamsi",14000)
+
+import os
+# os.mkdir("vamsi")
+
+# os.rmdir("./vamsi")
+print(os.listdir())
+os.chdir("../../51R")
+os.rename("C:/Users/RAKESH/PythoStacks/51R/AdvPy/vamsi.py","decorators.py")
