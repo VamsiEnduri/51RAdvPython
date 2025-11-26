@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background: #f5f7fa;
+    padding: 30px;
+}
+
+/* Page Title */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Input container */
+.conatiner {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* Input box */
+#todoinput {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+    font-size: 16px;
+    outline: none;
+}
+
+#todoinput:focus {
+    border-color: #4b79ff;
+}
+
+/* Add button */
+#addBtn {
+    padding: 10px 18px;
+    background-color: #4b79ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#addBtn:hover {
+    background-color: #355de6;
+}
+
+/* Error message */
+#erroMsg {
+    text-align: center;
+    color: red;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Todo container */
+#containerTodos {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Each Todo */
+.todo-item {
+    background: #ffffff;
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+
+/* Todo Text */
+.todo-text {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: #ff3b3b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.delete-btn:hover {
+    background-color: #d32222;
+}

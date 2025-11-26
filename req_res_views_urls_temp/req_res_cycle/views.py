@@ -4,7 +4,8 @@ from django.http import HttpResponse
 def home(request):
     return render(request,"home.html")
 
-
+def todos(request):
+    return render(request,"todo.html")
 def about(request):
     return render(request,"about.html")
 
